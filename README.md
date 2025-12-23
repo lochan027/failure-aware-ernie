@@ -77,15 +77,17 @@ The dataset explicitly teaches the model to recognize:
 ### Training Strategy
 
 **Framework**: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)  
-**Model**: ERNIE 3.0 Base (`nghuyong/ernie-3.0-base-zh`)  
+**Model**: ERNIE 4.5 (`baidu/ERNIE-4.5-0.3B-PT` - 304M parameters)  
 **Method**: Supervised Fine-Tuning (SFT) with LoRA  
 **Objective**: Minimize cross-entropy loss on structured decision outputs
 
 **Key Training Parameters**:
-- LoRA rank: 8 (efficient parameter updates)
+- LoRA rank: 8 (3M trainable params, 0.83% of total)
 - Learning rate: 5e-5 with cosine decay
-- Batch size: 4 (effective batch size 16 with gradient accumulation)
-- Epochs: 3
+- Batch size: 4 per device
+- Gradient accumulation: 4 steps
+- Epochs: 2
+- Hardware: RTX 2060 GPU (6GB VRAM)
 
 The training objective penalizes:
 - Confident answers to refuse-worthy questions (hallucinations)
@@ -177,14 +179,14 @@ python scripts/validate_dataset.py --data_dir data/failure_aware
 
 ### 3. Train Model
 
-**ERNIE 3.0** (CPU, ~18 minutes):
-```bash
-llamafactory-cli train configs/ernie_failure_aware_sft.yaml
-```
-
 **ERNIE 4.5** (GPU recommended, ~2 minutes on RTX 2060):
 ```bash
 llamafactory-cli train configs/ernie_4.5_failure_aware_sft.yaml
+```
+
+**ERNIE 3.0** (CPU fallback, ~18 minutes):
+```bash
+llamafactory-cli train configs/ernie_failure_aware_sft.yaml
 ```
 
 ### 4. Generate Evaluation Results
