@@ -1,0 +1,15 @@
+### Inference config for ERNIE 4.5 Failure-Aware Model
+
+model_name_or_path: baidu/ERNIE-4.5-0.3B-PT
+adapter_name_or_path: output/ernie_4.5_failure_aware
+template: default
+finetuning_type: lora
+
+# Use FP16 instead of quantization for inference (Windows compatible)
+# quantization_bit: 4  # Commented out - requires bitsandbytes
+
+# Generation parameters
+do_sample: true
+temperature: 0.7
+top_p: 0.9
+max_new_tokens: 256

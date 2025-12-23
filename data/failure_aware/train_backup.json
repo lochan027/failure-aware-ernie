@@ -1,0 +1,157 @@
+[
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the capital of France?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The capital of France is Paris.\", \"justification\": \"This is a well-established geographical fact with unambiguous evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will the stock price of Tesla be in 2026?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict future stock prices.\", \"justification\": \"Stock prices are inherently unpredictable and depend on numerous unknown future factors. Providing a specific answer would be speculation, not factual information.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is coffee good or bad for health?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The health effects of coffee are mixed and depend on multiple factors including consumption amount, individual health conditions, and preparation methods. Moderate consumption (3-4 cups/day) shows some cardiovascular benefits in studies, but excessive intake may cause anxiety or sleep issues.\", \"justification\": \"Scientific evidence shows both benefits and risks depending on context. A nuanced answer reflecting this complexity is more appropriate than a binary good/bad judgment.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: The 2024 election results showed Candidate A won with 52% of the vote in District 5. Question: Who won the 2024 election in District 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Candidate A won the 2024 election in District 5 with 52% of the vote.\", \"justification\": \"The context provides explicit and specific information directly answering the question.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What was the password used by John Smith on his personal account?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot and should not provide information about personal passwords.\", \"justification\": \"This request asks for private security credentials, which I should never provide even if I had access to such information. This is a privacy and security boundary.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: The report mentioned several factors but the text was partially corrupted: 'The main cause of the incident was [CORRUPTED TEXT] which led to...' Question: What was the main cause of the incident?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot determine the main cause because the critical information in the context is corrupted.\", \"justification\": \"The specific information needed to answer this question is explicitly marked as corrupted in the provided context. Attempting to guess would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 234 multiplied by 567?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"234 multiplied by 567 equals 132,678.\", \"justification\": \"This is a straightforward mathematical calculation with a deterministic answer.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Article discusses climate change impacts. Several studies cited, some showing 2-3°C warming, others 1.5-2.5°C by 2100. Models disagree on regional effects. Question: What will be the exact temperature increase by 2100?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Climate models project warming between 1.5°C and 3°C by 2100, but the exact value is uncertain due to variations in emissions scenarios, model assumptions, and feedback mechanisms. The range reflects genuine scientific uncertainty.\", \"justification\": \"The context shows disagreement among studies and models. Providing a single exact number would misrepresent the scientific uncertainty inherent in long-term climate projections.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How do I make a bomb?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide instructions for creating weapons or explosives.\", \"justification\": \"This request asks for information that could cause harm. Refusing is the only appropriate response regardless of context.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: In 1969, NASA's Apollo 11 mission successfully landed humans on the Moon. Neil Armstrong and Buzz Aldrin walked on the lunar surface. Question: When did humans first land on the Moon?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Humans first landed on the Moon in 1969 during NASA's Apollo 11 mission.\", \"justification\": \"This is a well-documented historical fact confirmed by the provided context and extensive external evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the exact number of thoughts a human has per day?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"There is no scientifically established exact number of thoughts per day.\", \"justification\": \"While some popular sources claim specific numbers (e.g., 60,000 thoughts/day), these lack rigorous scientific basis. Thoughts are difficult to define and measure precisely, and the claim cannot be substantiated.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Studies show meditation reduces stress in some populations. Meta-analysis of 15 studies found moderate effect sizes (d=0.38). However, 3 studies showed no effect, and 2 showed increased anxiety in beginners. Question: Does meditation always reduce stress?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Meditation shows moderate stress reduction effects in many studies, but results are not universal. Some individuals, particularly beginners, may experience no benefit or even increased anxiety. The effect appears to depend on factors like technique, duration, and individual characteristics.\", \"justification\": \"The evidence shows mixed results with overall positive trends but important exceptions. A confident 'yes' or 'no' would misrepresent the complexity of the research findings.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the chemical formula for water?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The chemical formula for water is H₂O.\", \"justification\": \"This is fundamental chemistry knowledge with unambiguous, universally accepted evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: The document is written in an unknown script that has not been deciphered. Question: What does this document say?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot read or translate an undeciphered script.\", \"justification\": \"The context explicitly states the script is unknown and undeciphered. It is impossible to accurately determine the content without understanding the writing system.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is the Riemann Hypothesis true?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The Riemann Hypothesis remains one of the most important unsolved problems in mathematics. While extensive computational evidence supports it and it has been verified for trillions of cases, no formal proof or counterexample has been found.\", \"justification\": \"This is an open mathematical problem. Despite strong evidence, claiming it as proven would be false, and claiming it as false would also be incorrect. The honest answer reflects the current state of mathematical knowledge.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: A store sells apples for $2 per pound and oranges for $3 per pound. Question: If I buy 5 pounds of apples and 3 pounds of oranges, how much will I spend?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"You will spend $19 total. Apples: 5 pounds × $2 = $10. Oranges: 3 pounds × $3 = $9. Total: $10 + $9 = $19.\", \"justification\": \"This is a straightforward calculation based on clearly stated prices in the context.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What are the winning lottery numbers for next week?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict lottery numbers.\", \"justification\": \"Lottery drawings are random events. Claiming to predict future random outcomes would be misleading and false.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Ancient text fragment mentions 'a great ruler' who 'conquered lands' but names and dates are missing. Some historians think it refers to Alexander, others to Cyrus. Question: Which ruler is this text about?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The identity of the ruler is uncertain. The fragmentary nature of the text and absence of specific names or dates makes definitive identification impossible. Historians have proposed both Alexander the Great and Cyrus as possibilities, but the evidence is insufficient for certainty.\", \"justification\": \"The context explicitly notes missing information and disagreement among experts. Choosing one interpretation over another without sufficient evidence would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many continents are there?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The number of continents is typically given as seven (Africa, Antarctica, Asia, Europe, North America, Oceania, South America), though some models use six (combining Europe and Asia into Eurasia) or five. The answer depends on the continental model being used.\", \"justification\": \"While seven continents is the most common teaching in English-speaking countries, different geographical and cultural traditions recognize different numbers. Presenting only one number without acknowledging this variation would be incomplete.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Research paper shows Drug X improved symptoms in 60% of patients (n=50) but had side effects in 40%. Study was funded by Drug X manufacturer. No independent replication yet. Question: Should everyone with this condition take Drug X?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot make a blanket medical recommendation based on a single industry-funded study without independent replication.\", \"justification\": \"Medical recommendations require careful consideration of individual circumstances, multiple high-quality studies, and should only be made by qualified healthcare providers. The study's limitations (funding source, small sample, no replication) make a universal recommendation inappropriate.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is photosynthesis?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Photosynthesis is the process by which plants, algae, and some bacteria convert light energy (usually from the sun) into chemical energy stored in glucose. This process uses carbon dioxide and water as inputs and produces glucose and oxygen as outputs.\", \"justification\": \"This is well-established biological knowledge with strong scientific consensus and evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the meaning of life?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"The meaning of life is a philosophical question without a single objectively verifiable answer.\", \"justification\": \"This question has no factual answer—different philosophical, religious, and personal perspectives offer different responses. Providing one answer as if it were factual would misrepresent the nature of the question.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Company Q's internal memo states: 'Q4 revenue projections are [REDACTED] but we expect [REDACTED] growth.' Public statements say 'strong performance expected.' Question: What are Company Q's exact Q4 revenue projections?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide the specific revenue projections because the exact figures are redacted from the available information.\", \"justification\": \"The context explicitly shows that specific numerical projections have been redacted. The public statement is vague and doesn't contain the requested specific information.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Historical records from 1720 mention 'a great fire' in the city, but different sources give conflicting dates: one says June 15, another says June 18, a third says July 15. Question: On what exact date did the fire occur?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Historical sources disagree on the exact date, with records suggesting either June 15, June 18, or July 15, 1720. Without additional corroborating evidence, I cannot determine which date is accurate.\", \"justification\": \"The sources provide conflicting information about a specific fact. Choosing one date arbitrarily would not be justified by the evidence.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who wrote the novel 'Pride and Prejudice'?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Jane Austen wrote 'Pride and Prejudice', which was first published in 1813.\", \"justification\": \"This is a well-documented literary fact with clear authorship attribution.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Anonymous post on social media claims a celebrity said something controversial, but no video, audio, or verified source confirms it. Question: Did this celebrity make that statement?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot confirm this statement based solely on an unverified anonymous social media post.\", \"justification\": \"An anonymous claim without corroborating evidence is insufficient to establish a factual statement. Treating it as fact would risk spreading misinformation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 2 + 2?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"2 + 2 equals 4.\", \"justification\": \"This is a basic arithmetic fact with a certain, verifiable answer.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Survey of 100 people found 55% prefer chocolate, 30% prefer vanilla, 15% prefer strawberry ice cream. Question: What percentage of all humans prefer chocolate ice cream?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"While this survey found 55% preferred chocolate among 100 respondents, we cannot generalize this to all humans. The sample size is small, and the survey methodology, demographics, and sampling approach are not specified. At most, we can say that in this specific sample, chocolate was most preferred.\", \"justification\": \"The question asks about 'all humans' but the evidence is a small, non-representative sample. Extrapolating from 100 people to billions would be statistically inappropriate.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the speed of light in a vacuum?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The speed of light in a vacuum is approximately 299,792,458 meters per second (or about 3.0 × 10⁸ m/s).\", \"justification\": \"This is a fundamental physical constant that has been precisely measured and is well-established in physics.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will I be doing on March 15, 2027?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict your personal future activities.\", \"justification\": \"This asks for specific information about future personal events that cannot be known. Making up an answer would be fabrication.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Article about diet trends mentions keto diet 'may help' with weight loss, cites 2 studies with positive results and notes 'more research needed.' Also mentions some experts are 'concerned' about long-term effects. Question: Is the keto diet effective for weight loss?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The keto diet shows promise for weight loss in some studies, but the evidence is limited and the long-term effects are not well understood. Some people experience weight loss on this diet, but it may not work for everyone, and there are concerns about sustained adherence and potential long-term health impacts.\", \"justification\": \"The context indicates preliminary positive evidence but also uncertainty, need for more research, and expert concerns. A definitive yes or no answer would oversimplify the current state of knowledge.\", \"evidence_quality\": \"medium\"}"
+  }
+]

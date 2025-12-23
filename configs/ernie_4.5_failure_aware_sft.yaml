@@ -1,0 +1,41 @@
+### model
+model_name_or_path: baidu/ERNIE-4.5-0.3B-PT  # Official ERNIE 4.5 0.3B (public, fits 6GB VRAM)
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+
+### dataset
+dataset: failure_aware_train
+eval_dataset: failure_aware_val
+dataset_dir: data
+template: default
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 4
+
+### output
+output_dir: output/ernie_4.5_failure_aware
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 4  # 0.3B model is small, can use larger batch
+gradient_accumulation_steps: 4  # Total effective batch = 16
+learning_rate: 5.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+fp16: true  # Mixed precision for faster training on GPU
+
+### eval
+per_device_eval_batch_size: 2
+eval_strategy: steps
+eval_steps: 50

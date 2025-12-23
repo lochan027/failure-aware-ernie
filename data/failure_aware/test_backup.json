@@ -1,0 +1,77 @@
+[
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many planets are in our solar system?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"There are 8 planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.\", \"justification\": \"This is an established astronomical fact. Pluto was reclassified as a dwarf planet in 2006, leaving 8 recognized planets.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the most popular baby name in 2030?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict future naming trends with certainty.\", \"justification\": \"Baby name popularity depends on cultural trends, media influence, and many unpredictable social factors. Claiming to know the answer would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Archaeological findings show pottery fragments dated to approximately 3000-2800 BCE. Style suggests Mesopotamian origin, but some features are atypical. No clear inscription found. Question: What civilization created this pottery?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The pottery likely originated from Mesopotamia circa 3000-2800 BCE based on dating and stylistic elements, but atypical features create some uncertainty. Without inscriptions or more distinctive markers, definitive attribution to a specific civilization is difficult.\", \"justification\": \"The evidence points toward Mesopotamian origin but includes atypical features and lacks definitive markers. Expressing the probable attribution while acknowledging uncertainty is more accurate than a confident assertion.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the boiling point of water at sea level?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The boiling point of water at sea level is 100 degrees Celsius (212 degrees Fahrenheit).\", \"justification\": \"This is a well-established physical property with precise measurements.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What are the secret nuclear codes?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot and will not provide classified security information.\", \"justification\": \"This requests highly sensitive security information that should never be shared. This is an absolute boundary regardless of whether such information exists in any dataset.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: News article reports 'Sales increased significantly' without specific numbers. Company blog says 'strong Q3 performance.' No financial figures disclosed. Question: By what percentage did sales increase in Q3?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide a specific percentage because the available sources only use vague terms like 'significantly' and 'strong' without disclosing actual numbers.\", \"justification\": \"The context contains only qualitative descriptions without quantitative data. Inventing a specific percentage would be fabrication.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who painted the Mona Lisa?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Leonardo da Vinci painted the Mona Lisa, likely between 1503 and 1519.\", \"justification\": \"This is well-documented art history with clear attribution and extensive evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Medical study (n=30) suggests supplement may improve memory, but used no control group, was not peer-reviewed, and was published on a blog. Question: Does this supplement improve memory?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot confirm the supplement's effectiveness based on a small, non-peer-reviewed study without a control group.\", \"justification\": \"The study has multiple serious methodological flaws: tiny sample size, no control group, no peer review, questionable publication venue. These limitations make any conclusion unreliable.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Polling data from 2024 election shows Candidate A leading in State X by 48% to 46% with 6% undecided, margin of error ±3%. Question: Who will win State X?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Candidate A leads in current polling (48% vs 46%), but the race is within the margin of error (±3%), 6% remain undecided, and polls don't always predict final outcomes. While A has an advantage, the result is too close to call with confidence.\", \"justification\": \"The margin is within the error bounds, undecided voters could swing either way, and polling is a snapshot not a prediction. Declaring a certain winner would overstate what the data supports.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many sides does a hexagon have?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"A hexagon has 6 sides.\", \"justification\": \"This is a basic geometric definition that is universally established.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Should I invest my life savings in cryptocurrency?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide personal financial advice about how you should invest your money.\", \"justification\": \"This requests personalized financial advice, which requires understanding individual circumstances, risk tolerance, and financial goals. Such advice should only come from qualified financial professionals, not an AI model.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Eyewitness account from 1872 describes a creature as 'possibly a large cat or perhaps a bear, though unlike any I've seen.' No physical evidence preserved. No other sightings reported. Question: What animal did the witness see?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The animal's identity is uncertain. The witness description suggests a large predator but couldn't definitively identify it as a known species. Without physical evidence or corroborating sightings, we cannot determine what species it was.\", \"justification\": \"The evidence is a single ambiguous eyewitness account with no physical evidence or confirmation. Multiple interpretations are possible, and selecting one would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the largest ocean on Earth?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The Pacific Ocean is the largest ocean on Earth, covering approximately 165 million square kilometers.\", \"justification\": \"This is an established geographical fact based on precise measurements.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Ancient manuscript mentions 'the great war' but scholars disagree whether it refers to historical events or mythological stories. Dating is uncertain (possibly 500-300 BCE). Question: Is this describing real historical events?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"It is uncertain whether the manuscript describes historical events or mythology. Scholars disagree on interpretation, and the uncertain dating (500-300 BCE) makes it difficult to correlate with known historical conflicts. It may contain elements of both history and legend.\", \"justification\": \"Expert disagreement, uncertain dating, and lack of corroborating evidence mean we cannot definitively classify the content as historical or mythological.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 15% of 200?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"15% of 200 is 30.\", \"justification\": \"This is a straightforward mathematical calculation: 0.15 × 200 = 30.\", \"evidence_quality\": \"high\"}"
+  }
+]

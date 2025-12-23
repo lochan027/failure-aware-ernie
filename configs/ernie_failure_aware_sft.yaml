@@ -1,0 +1,81 @@
+### model
+model_name_or_path: nghuyong/ernie-3.0-base-zh  # ERNIE 3.0 base model
+
+### method
+stage: sft  # Supervised Fine-Tuning
+do_train: true
+finetuning_type: lora  # Use LoRA for efficient fine-tuning
+lora_target: all  # Apply LoRA to all linear layers
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+
+### dataset
+dataset: failure_aware_train
+dataset_dir: data
+template: default  # Use default template
+cutoff_len: 1024  # Maximum sequence length
+max_samples: 1000  # Limit samples for training (remove for full dataset)
+overwrite_cache: true
+preprocessing_num_workers: 1  # Set to 1 to avoid multiprocessing issues on Windows
+
+### output
+output_dir: output/ernie_failure_aware
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 4
+learning_rate: 5.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: false  # Set to true if using GPU with bf16 support
+fp16: false  # Set to true if using older GPUs
+
+### eval
+val_size: 0.1  # Use 10% of training data for validation if separate val set not provided
+per_device_eval_batch_size: 4
+eval_strategy: steps
+eval_steps: 100
+do_eval: true
+
+### optimization
+optim: adamw_torch
+max_grad_norm: 1.0
+weight_decay: 0.01
+
+### reproducibility
+seed: 42
+
+### logging
+report_to: tensorboard
+logging_dir: ../output/ernie_failure_aware/logs
+
+### Note: To use this config with LLaMA-Factory, you need to:
+### 1. Register the dataset in LLaMA-Factory's dataset_info.json:
+###
+###   "failure_aware_dataset": {
+###     "file_name": "train.json",
+###     "formatting": "sharegpt",
+###     "columns": {
+###       "messages": "conversations"
+###     },
+###     "tags": {
+###       "role_tag": "from",
+###       "content_tag": "value",
+###       "user_tag": "human",
+###       "assistant_tag": "gpt"
+###     }
+###   }
+###
+### 2. Or use the dataset directly with file paths if LLaMA-Factory supports it
+###
+### 3. Run training with:
+###    llamafactory-cli train configs/ernie_failure_aware_sft.yaml
+###
+### For inference and evaluation:
+###    llamafactory-cli chat configs/ernie_failure_aware_sft.yaml --checkpoint_dir output/ernie_failure_aware

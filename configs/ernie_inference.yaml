@@ -1,0 +1,9 @@
+### model
+model_name_or_path: nghuyong/ernie-3.0-base-zh
+adapter_name_or_path: output/ernie_failure_aware
+
+### method
+finetuning_type: lora
+
+### dataset
+template: default

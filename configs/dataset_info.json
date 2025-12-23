@@ -1,0 +1,19 @@
+{
+  "failure_aware_dataset": {
+    "file_name": "train.json",
+    "file_sha1": "placeholder",
+    "hf_hub_url": "local",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  }
+}

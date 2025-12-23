@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model outputs and checkpoints
+output/
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+
+# Training logs
+logs/
+*.log
+*.jsonl
+wandb/
+tensorboard/
+
+# Data files (too large for git)
+*.json.gz
+*.parquet
+*.arrow
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Temporary files
+temp/
+tmp/
+.cache/

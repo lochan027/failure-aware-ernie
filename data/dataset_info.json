@@ -1,0 +1,29 @@
+{
+  "failure_aware_train": {
+    "file_name": "failure_aware/train.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "failure_aware_val": {
+    "file_name": "failure_aware/val.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "failure_aware_test": {
+    "file_name": "failure_aware/test.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

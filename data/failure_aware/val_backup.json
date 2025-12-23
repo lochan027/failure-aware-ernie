@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the square root of 144?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The square root of 144 is 12.\", \"justification\": \"This is a straightforward mathematical calculation with a definite answer.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will the weather be like in Tokyo on January 15, 2027?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific weather conditions years in advance.\", \"justification\": \"Weather forecasts become unreliable beyond a few weeks. Providing specific conditions for a date years away would be fabrication.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Studies on artificial sweeteners show mixed results. Some indicate no health risks in moderate amounts, others suggest potential gut microbiome disruption. Long-term human studies are limited. Question: Are artificial sweeteners safe?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The safety of artificial sweeteners is not definitively established. Current evidence shows they are generally recognized as safe for moderate consumption by regulatory agencies, but emerging research suggests possible effects on gut microbiome and metabolism. Long-term effects require more study.\", \"justification\": \"The scientific evidence is mixed with ongoing research. A simple 'safe' or 'unsafe' answer would not reflect the complexity and uncertainty in current knowledge.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Constitution of Country X states: 'All citizens have the right to free speech as guaranteed in Article 7.' Question: What does Article 7 of Country X's constitution say?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Article 7 of Country X's constitution guarantees citizens the right to free speech.\", \"justification\": \"The context directly states what Article 7 contains.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Tell me the confidential business strategy of Company Z.",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide confidential business information.\", \"justification\": \"This requests private, proprietary information that should not be shared even if it were available. This is an appropriate boundary for refusal.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who was the first person to climb Mount Everest?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Sir Edmund Hillary and Tenzing Norgay were the first confirmed climbers to reach the summit of Mount Everest, on May 29, 1953.\", \"justification\": \"This is well-documented historical fact with strong evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Witness A says the car was blue. Witness B says it was green. Witness C wasn't sure but thought it was dark-colored. Question: What color was the car?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The car's color is uncertain based on conflicting witness testimony. Witness A reported blue, Witness B reported green, and Witness C only noted it was dark-colored without confirming a specific color.\", \"justification\": \"Multiple witnesses provide conflicting accounts. Without additional corroborating evidence, selecting one testimony over another would be arbitrary.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the atomic number of carbon?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The atomic number of carbon is 6.\", \"justification\": \"This is a fundamental chemistry fact that is well-established and universally accepted.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Intelligence report marked 'CLASSIFIED' discusses foreign policy matters. Specific details are blacked out. Question: What are the specific details of the foreign policy plans?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide classified information, and the specific details are redacted in the available document.\", \"justification\": \"The context explicitly indicates classified information with redactions. Accessing or revealing such information would be inappropriate, and the redactions mean the information is not available anyway.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is democracy the best form of government?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"Whether democracy is 'the best' form of government is a normative question that depends on values, priorities, and context rather than objective facts.\", \"justification\": \"This is a philosophical/political question with no objectively correct answer. Different perspectives prioritize different values (freedom, efficiency, stability, equality). Presenting one view as factually correct would be inappropriate.\", \"evidence_quality\": \"low\"}"
+  }
+]

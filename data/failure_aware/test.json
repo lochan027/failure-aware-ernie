@@ -1,0 +1,377 @@
+[
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the population of Earth?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Earth's population is approximately 8 billion people as of 2024, though the exact number changes constantly.\", \"justification\": \"This is regularly tracked by organizations like the UN, though exact real-time figures vary slightly.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Economic indicators show mixed signals - some positive, some negative. Experts disagree on interpretation. Question: Is the economy doing well?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Economic conditions show mixed indicators with differing expert interpretations. Some sectors show strength while others face challenges, making simple 'good' or 'bad' assessments overly simplistic.\", \"justification\": \"Economic assessment depends on which indicators are prioritized, timeframes, and perspectives. Complexity resists simple categorization.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 27 multiplied by 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"27 multiplied by 5 equals 135.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is it morally acceptable to eat meat?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The ethics of eating meat is debated across philosophical traditions, religions, and cultures. Arguments exist from environmental, animal welfare, health, cultural, and personal autonomy perspectives. There is no universal consensus.\", \"justification\": \"This is a normative question with multiple defensible positions depending on ethical frameworks and values.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many letters are in the English alphabet?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The English alphabet has 26 letters.\", \"justification\": \"This is a basic fact about the English language.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the population of Earth?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Earth's population is approximately 8 billion people as of 2024, though the exact number changes constantly.\", \"justification\": \"This is regularly tracked by organizations like the UN, though exact real-time figures vary slightly.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who will win the next presidential election?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict future election outcomes.\", \"justification\": \"Election results depend on campaigns, events, voter turnout, and many unpredictable factors. Claiming to know the outcome would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who was Cleopatra?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, reigning from 51 to 30 BCE. She is famous for her relationships with Julius Caesar and Mark Antony.\", \"justification\": \"This is well-documented ancient history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is a metaphor?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"A metaphor is a figure of speech that describes something by saying it is something else, creating an implicit comparison without using 'like' or 'as' (unlike a simile).\", \"justification\": \"This is a standard literary term with clear definition.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is P equal to NP?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The P vs NP problem is one of the most important unsolved problems in computer science. Most experts believe P \\u2260 NP, but no proof has been found despite decades of effort.\", \"justification\": \"This is a famous open problem with strong intuitions but no mathematical proof.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many continents are there?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Seven continents are commonly recognized: Africa, Antarctica, Asia, Europe, North America, Oceania, and South America, though some models use six (combining Europe and Asia).\", \"justification\": \"While seven is the most common model, different geographical traditions recognize different numbers.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 144 divided by 12?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"144 divided by 12 equals 12.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is global warming caused by humans?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Scientific consensus, supported by extensive evidence, is that current global warming is primarily caused by human activities, particularly greenhouse gas emissions from burning fossil fuels.\", \"justification\": \"The scientific consensus (97%+ of climate scientists) is clear based on multiple lines of evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 96 multiplied by 19?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"96 multiplied by 19 equals 1824.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is [specific supplement] safe for everyone?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Supplement safety varies by individual based on health conditions, medications, dosage, and quality. While some supplements are generally recognized as safe for many people, individual circumstances matter and some people may have contraindications.\", \"justification\": \"Supplement safety is person-specific and requires consideration of individual health factors.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is utilitarianism?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Utilitarianism is an ethical philosophy that judges actions by their consequences, specifically whether they maximize overall happiness or well-being ('the greatest good for the greatest number').\", \"justification\": \"This is a well-defined philosophical position with clear description.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the population of Earth?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Earth's population is approximately 8 billion people as of 2024, though the exact number changes constantly.\", \"justification\": \"This is regularly tracked by organizations like the UN, though exact real-time figures vary slightly.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is [specific supplement] safe for everyone?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Supplement safety varies by individual based on health conditions, medications, dosage, and quality. While some supplements are generally recognized as safe for many people, individual circumstances matter and some people may have contraindications.\", \"justification\": \"Supplement safety is person-specific and requires consideration of individual health factors.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 64 multiplied by 3?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"64 multiplied by 3 equals 192.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is [specific supplement] safe for everyone?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Supplement safety varies by individual based on health conditions, medications, dosage, and quality. While some supplements are generally recognized as safe for many people, individual circumstances matter and some people may have contraindications.\", \"justification\": \"Supplement safety is person-specific and requires consideration of individual health factors.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Multiple credible news sources report a major policy change with official government announcements. Question: Did this policy change occur?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Yes, based on multiple credible sources and official announcements, this policy change occurred.\", \"justification\": \"When multiple credible sources and official statements align, this constitutes strong evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the area of a circle with radius 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The area of a circle with radius 5 is 25\\u03c0, or approximately 78.54 square units.\", \"justification\": \"This uses the formula A = \\u03c0r\\u00b2, which is a proven geometric relationship.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "When did the American Civil War take place?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The American Civil War took place from 1861 to 1865.\", \"justification\": \"This is well-documented historical fact.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who will win the championship this year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict sports outcomes.\", \"justification\": \"Sports results depend on performance, injuries, strategy, and many unpredictable factors.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is a metaphor?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"A metaphor is a figure of speech that describes something by saying it is something else, creating an implicit comparison without using 'like' or 'as' (unlike a simile).\", \"justification\": \"This is a standard literary term with clear definition.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is abstract art 'real art'?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Abstract art is recognized by museums, art historians, and institutions as a legitimate art form. However, definitions of 'art' and aesthetic value are contested philosophical questions with no universal agreement.\", \"justification\": \"While abstract art is institutionally recognized, broader questions about art definition remain philosophically debated.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Economic indicators show mixed signals - some positive, some negative. Experts disagree on interpretation. Question: Is the economy doing well?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Economic conditions show mixed indicators with differing expert interpretations. Some sectors show strength while others face challenges, making simple 'good' or 'bad' assessments overly simplistic.\", \"justification\": \"Economic assessment depends on which indicators are prioritized, timeframes, and perspectives. Complexity resists simple categorization.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is E=mc²?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"E=mc\\u00b2 is Einstein's mass-energy equivalence formula, showing that energy equals mass times the speed of light squared.\", \"justification\": \"This is one of the most famous equations in physics with extensive experimental verification.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "When did the American Civil War take place?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The American Civil War took place from 1861 to 1865.\", \"justification\": \"This is well-documented historical fact.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What numbers will win the Powerball jackpot tomorrow?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict lottery numbers.\", \"justification\": \"Lottery drawings are random events. Claims to predict random outcomes would be false.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is E=mc²?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"E=mc\\u00b2 is Einstein's mass-energy equivalence formula, showing that energy equals mass times the speed of light squared.\", \"justification\": \"This is one of the most famous equations in physics with extensive experimental verification.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 21 multiplied by 20?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"21 multiplied by 20 equals 420.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What caused the fall of the Maya civilization?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The decline of Maya civilization likely resulted from multiple factors including drought, warfare, overpopulation, and environmental degradation, but historians debate the relative importance and timing of these factors.\", \"justification\": \"Archaeological evidence points to multiple contributing factors, but the specific causes and sequence remain debated.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many letters are in the English alphabet?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The English alphabet has 26 letters.\", \"justification\": \"This is a basic fact about the English language.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many letters are in the English alphabet?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The English alphabet has 26 letters.\", \"justification\": \"This is a basic fact about the English language.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 37 multiplied by 9?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"37 multiplied by 9 equals 333.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Should I sue my landlord?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide legal advice about whether to pursue litigation.\", \"justification\": \"Legal decisions require analysis of specific facts, applicable laws, jurisdictions, costs, evidence, and potential outcomes by licensed attorneys.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 64 multiplied by 3?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"64 multiplied by 3 equals 192.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the capital of Canada?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The capital of Canada is Ottawa.\", \"justification\": \"This is established geographical fact.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is P equal to NP?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The P vs NP problem is one of the most important unsolved problems in computer science. Most experts believe P \\u2260 NP, but no proof has been found despite decades of effort.\", \"justification\": \"This is a famous open problem with strong intuitions but no mathematical proof.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the right thing to do in [specific personal situation]?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot make personal ethical decisions for you.\", \"justification\": \"Ethical decisions depend on individual values, specific circumstances, relationships, and consequences that vary by situation and person.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 64 multiplied by 3?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"64 multiplied by 3 equals 192.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is it morally acceptable to eat meat?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The ethics of eating meat is debated across philosophical traditions, religions, and cultures. Arguments exist from environmental, animal welfare, health, cultural, and personal autonomy perspectives. There is no universal consensus.\", \"justification\": \"This is a normative question with multiple defensible positions depending on ethical frameworks and values.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "When did the American Civil War take place?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The American Civil War took place from 1861 to 1865.\", \"justification\": \"This is well-documented historical fact.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 27 multiplied by 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"27 multiplied by 5 equals 135.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 37 multiplied by 9?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"37 multiplied by 9 equals 333.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is utilitarianism?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Utilitarianism is an ethical philosophy that judges actions by their consequences, specifically whether they maximize overall happiness or well-being ('the greatest good for the greatest number').\", \"justification\": \"This is a well-defined philosophical position with clear description.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is gravity?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Gravity is the force of attraction between objects with mass. In Einstein's general relativity, it's described as the curvature of spacetime caused by mass and energy.\", \"justification\": \"Gravity is one of the fundamental forces with extensive theoretical and experimental support.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: A single unverified social media post claims a celebrity did something controversial. No other sources confirm. Question: Did this event happen?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot confirm this based solely on an unverified single-source social media claim.\", \"justification\": \"Unverified single-source claims, especially on social media, are insufficient evidence to establish factual claims.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who composed the Four Seasons?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Antonio Vivaldi composed 'The Four Seasons,' a set of four violin concertos, around 1718-1720.\", \"justification\": \"This is well-documented music history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 37 multiplied by 9?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"37 multiplied by 9 equals 333.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is gravity?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Gravity is the force of attraction between objects with mass. In Einstein's general relativity, it's described as the curvature of spacetime caused by mass and energy.\", \"justification\": \"Gravity is one of the fundamental forces with extensive theoretical and experimental support.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 21 multiplied by 20?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"21 multiplied by 20 equals 420.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is a metaphor?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"A metaphor is a figure of speech that describes something by saying it is something else, creating an implicit comparison without using 'like' or 'as' (unlike a simile).\", \"justification\": \"This is a standard literary term with clear definition.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who composed the Four Seasons?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Antonio Vivaldi composed 'The Four Seasons,' a set of four violin concertos, around 1718-1720.\", \"justification\": \"This is well-documented music history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is global warming caused by humans?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Scientific consensus, supported by extensive evidence, is that current global warming is primarily caused by human activities, particularly greenhouse gas emissions from burning fossil fuels.\", \"justification\": \"The scientific consensus (97%+ of climate scientists) is clear based on multiple lines of evidence.\", \"evidence_quality\": \"high\"}"
+  }
+]

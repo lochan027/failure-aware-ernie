@@ -1,0 +1,377 @@
+[
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Should I quit my job?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot make personal career decisions for you.\", \"justification\": \"Career decisions depend on individual circumstances, goals, finances, opportunities, and personal values.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is E=mc²?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"E=mc\\u00b2 is Einstein's mass-energy equivalence formula, showing that energy equals mass times the speed of light squared.\", \"justification\": \"This is one of the most famous equations in physics with extensive experimental verification.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What medication should I take for my headache?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot provide personal medical advice or recommend specific medications.\", \"justification\": \"Medication recommendations require professional medical evaluation of symptoms, medical history, contraindications, and individual circumstances.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many letters are in the English alphabet?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The English alphabet has 26 letters.\", \"justification\": \"This is a basic fact about the English language.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is cloud computing?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Cloud computing is the delivery of computing services (servers, storage, databases, networking, software) over the internet, allowing on-demand access without direct management by users.\", \"justification\": \"This is standard technology terminology with clear definition.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 25% of 80?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"25% of 80 is 20.\", \"justification\": \"This is a simple percentage calculation: 0.25 \\u00d7 80 = 20.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is it morally acceptable to eat meat?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The ethics of eating meat is debated across philosophical traditions, religions, and cultures. Arguments exist from environmental, animal welfare, health, cultural, and personal autonomy perspectives. There is no universal consensus.\", \"justification\": \"This is a normative question with multiple defensible positions depending on ethical frameworks and values.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 4?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 4 equals 52.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Do I have [medical condition] based on my symptoms?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot diagnose medical conditions.\", \"justification\": \"Medical diagnosis requires professional evaluation including medical history, examination, tests, and clinical judgment by licensed healthcare providers.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the First Amendment?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The First Amendment to the U.S. Constitution protects freedoms of religion, speech, press, assembly, and petition. It prevents the government from restricting these rights.\", \"justification\": \"This is established constitutional law with clear text and extensive interpretation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 10?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 10 equals 130.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is [specific supplement] safe for everyone?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Supplement safety varies by individual based on health conditions, medications, dosage, and quality. While some supplements are generally recognized as safe for many people, individual circumstances matter and some people may have contraindications.\", \"justification\": \"Supplement safety is person-specific and requires consideration of individual health factors.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many letters are in the English alphabet?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The English alphabet has 26 letters.\", \"justification\": \"This is a basic fact about the English language.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 91 multiplied by 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"91 multiplied by 5 equals 455.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is cloud computing?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Cloud computing is the delivery of computing services (servers, storage, databases, networking, software) over the internet, allowing on-demand access without direct management by users.\", \"justification\": \"This is standard technology terminology with clear definition.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What are tomorrow's winning lottery numbers?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict random lottery numbers.\", \"justification\": \"Lottery drawings are random events that cannot be predicted.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is global warming caused by humans?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Scientific consensus, supported by extensive evidence, is that current global warming is primarily caused by human activities, particularly greenhouse gas emissions from burning fossil fuels.\", \"justification\": \"The scientific consensus (97%+ of climate scientists) is clear based on multiple lines of evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 21 multiplied by 20?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"21 multiplied by 20 equals 420.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the best movie ever made?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"'Best movie' is a subjective judgment that varies by personal taste, cultural background, and criteria.\", \"justification\": \"Aesthetic and artistic judgments are subjective and have no objectively correct answer.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 64 multiplied by 3?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"64 multiplied by 3 equals 192.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 25% of 80?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"25% of 80 is 20.\", \"justification\": \"This is a simple percentage calculation: 0.25 \\u00d7 80 = 20.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 96 multiplied by 19?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"96 multiplied by 19 equals 1824.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who composed the Four Seasons?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Antonio Vivaldi composed 'The Four Seasons,' a set of four violin concertos, around 1718-1720.\", \"justification\": \"This is well-documented music history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 91 multiplied by 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"91 multiplied by 5 equals 455.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is [specific supplement] safe for everyone?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Supplement safety varies by individual based on health conditions, medications, dosage, and quality. While some supplements are generally recognized as safe for many people, individual circumstances matter and some people may have contraindications.\", \"justification\": \"Supplement safety is person-specific and requires consideration of individual health factors.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 144 divided by 12?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"144 divided by 12 equals 12.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many players are on a basketball team on the court?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Five players from each team are on the basketball court at a time.\", \"justification\": \"This is a basic rule of basketball.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the correct usage: 'who' or 'whom'?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"'Who' is used for subjects (who did it) and 'whom' for objects (to whom). However, 'whom' is declining in casual speech, and prescriptive rules vs. actual usage vary. The 'correct' usage depends on whether you follow traditional grammar rules or modern conversational norms.\", \"justification\": \"Grammar rules exist but language evolves, and prescriptive vs. descriptive approaches differ on declining forms like 'whom'.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who was Cleopatra?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, reigning from 51 to 30 BCE. She is famous for her relationships with Julius Caesar and Mark Antony.\", \"justification\": \"This is well-documented ancient history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many players are on a basketball team on the court?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Five players from each team are on the basketball court at a time.\", \"justification\": \"This is a basic rule of basketball.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What caused the fall of the Maya civilization?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"The decline of Maya civilization likely resulted from multiple factors including drought, warfare, overpopulation, and environmental degradation, but historians debate the relative importance and timing of these factors.\", \"justification\": \"Archaeological evidence points to multiple contributing factors, but the specific causes and sequence remain debated.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the area of a circle with radius 5?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The area of a circle with radius 5 is 25\\u03c0, or approximately 78.54 square units.\", \"justification\": \"This uses the formula A = \\u03c0r\\u00b2, which is a proven geometric relationship.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What numbers will win the Powerball jackpot tomorrow?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict lottery numbers.\", \"justification\": \"Lottery drawings are random events. Claims to predict random outcomes would be false.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the correct usage: 'who' or 'whom'?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"'Who' is used for subjects (who did it) and 'whom' for objects (to whom). However, 'whom' is declining in casual speech, and prescriptive rules vs. actual usage vary. The 'correct' usage depends on whether you follow traditional grammar rules or modern conversational norms.\", \"justification\": \"Grammar rules exist but language evolves, and prescriptive vs. descriptive approaches differ on declining forms like 'whom'.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the best movie ever made?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"'Best movie' is a subjective judgment that varies by personal taste, cultural background, and criteria.\", \"justification\": \"Aesthetic and artistic judgments are subjective and have no objectively correct answer.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 10?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 10 equals 130.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What are the symptoms of diabetes?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Common symptoms of diabetes include increased thirst and urination, unexplained weight loss, fatigue, blurred vision, and slow-healing wounds. However, some people with type 2 diabetes have no symptoms initially.\", \"justification\": \"These are medically recognized symptoms, though this is general information, not a substitute for professional diagnosis.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who will win the championship this year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict sports outcomes.\", \"justification\": \"Sports results depend on performance, injuries, strategy, and many unpredictable factors.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Will we cure Alzheimer's disease in the next decade?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"While research is advancing with new drug candidates and therapeutic approaches, predicting a cure within a specific timeframe is uncertain. Clinical trials show mixed results, and the disease's complexity presents significant challenges.\", \"justification\": \"Progress is being made but the timeline for a cure is highly uncertain given the complexity of neurodegenerative diseases.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the right thing to do in [specific personal situation]?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot make personal ethical decisions for you.\", \"justification\": \"Ethical decisions depend on individual values, specific circumstances, relationships, and consequences that vary by situation and person.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 96 multiplied by 19?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"96 multiplied by 19 equals 1824.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What are the symptoms of diabetes?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Common symptoms of diabetes include increased thirst and urination, unexplained weight loss, fatigue, blurred vision, and slow-healing wounds. However, some people with type 2 diabetes have no symptoms initially.\", \"justification\": \"These are medically recognized symptoms, though this is general information, not a substitute for professional diagnosis.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is global warming caused by humans?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Scientific consensus, supported by extensive evidence, is that current global warming is primarily caused by human activities, particularly greenhouse gas emissions from burning fossil fuels.\", \"justification\": \"The scientific consensus (97%+ of climate scientists) is clear based on multiple lines of evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 10?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 10 equals 130.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 4?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 4 equals 52.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What does USB stand for?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"USB stands for Universal Serial Bus, a standard for connecting devices to computers.\", \"justification\": \"This is established technology terminology.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Will we cure Alzheimer's disease in the next decade?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"While research is advancing with new drug candidates and therapeutic approaches, predicting a cure within a specific timeframe is uncertain. Clinical trials show mixed results, and the disease's complexity presents significant challenges.\", \"justification\": \"Progress is being made but the timeline for a cure is highly uncertain given the complexity of neurodegenerative diseases.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Multiple credible news sources report a major policy change with official government announcements. Question: Did this policy change occur?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Yes, based on multiple credible sources and official announcements, this policy change occurred.\", \"justification\": \"When multiple credible sources and official statements align, this constitutes strong evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Do I have [medical condition] based on my symptoms?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot diagnose medical conditions.\", \"justification\": \"Medical diagnosis requires professional evaluation including medical history, examination, tests, and clinical judgment by licensed healthcare providers.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: Economic indicators show mixed signals - some positive, some negative. Experts disagree on interpretation. Question: Is the economy doing well?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"Economic conditions show mixed indicators with differing expert interpretations. Some sectors show strength while others face challenges, making simple 'good' or 'bad' assessments overly simplistic.\", \"justification\": \"Economic assessment depends on which indicators are prioritized, timeframes, and perspectives. Complexity resists simple categorization.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the pH scale?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"The pH scale measures acidity and alkalinity from 0-14, with 7 being neutral, below 7 acidic, and above 7 alkaline.\", \"justification\": \"This is a standard chemistry measurement scale.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who will win the championship this year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict sports outcomes.\", \"justification\": \"Sports results depend on performance, injuries, strategy, and many unpredictable factors.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Context: A single unverified social media post claims a celebrity did something controversial. No other sources confirm. Question: Did this event happen?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot confirm this based solely on an unverified single-source social media claim.\", \"justification\": \"Unverified single-source claims, especially on social media, are insufficient evidence to establish factual claims.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the smallest country in the world?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Vatican City is the smallest country in the world, with an area of approximately 0.44 square kilometers (0.17 square miles).\", \"justification\": \"This is established geographical data.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the best movie ever made?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"'Best movie' is a subjective judgment that varies by personal taste, cultural background, and criteria.\", \"justification\": \"Aesthetic and artistic judgments are subjective and have no objectively correct answer.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who will win the next presidential election?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict future election outcomes.\", \"justification\": \"Election results depend on campaigns, events, voter turnout, and many unpredictable factors. Claiming to know the outcome would be speculation.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is utilitarianism?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Utilitarianism is an ethical philosophy that judges actions by their consequences, specifically whether they maximize overall happiness or well-being ('the greatest good for the greatest number').\", \"justification\": \"This is a well-defined philosophical position with clear description.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the right thing to do in [specific personal situation]?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot make personal ethical decisions for you.\", \"justification\": \"Ethical decisions depend on individual values, specific circumstances, relationships, and consequences that vary by situation and person.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the population of Earth?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Earth's population is approximately 8 billion people as of 2024, though the exact number changes constantly.\", \"justification\": \"This is regularly tracked by organizations like the UN, though exact real-time figures vary slightly.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Who was Cleopatra?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, reigning from 51 to 30 BCE. She is famous for her relationships with Julius Caesar and Mark Antony.\", \"justification\": \"This is well-documented ancient history.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is E=mc²?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"E=mc\\u00b2 is Einstein's mass-energy equivalence formula, showing that energy equals mass times the speed of light squared.\", \"justification\": \"This is one of the most famous equations in physics with extensive experimental verification.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What numbers will win the Powerball jackpot tomorrow?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict lottery numbers.\", \"justification\": \"Lottery drawings are random events. Claims to predict random outcomes would be false.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "Is global warming caused by humans?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Scientific consensus, supported by extensive evidence, is that current global warming is primarily caused by human activities, particularly greenhouse gas emissions from burning fossil fuels.\", \"justification\": \"The scientific consensus (97%+ of climate scientists) is clear based on multiple lines of evidence.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is the correct usage: 'who' or 'whom'?",
+    "output": "{\"decision\": \"uncertain\", \"answer\": \"'Who' is used for subjects (who did it) and 'whom' for objects (to whom). However, 'whom' is declining in casual speech, and prescriptive rules vs. actual usage vary. The 'correct' usage depends on whether you follow traditional grammar rules or modern conversational norms.\", \"justification\": \"Grammar rules exist but language evolves, and prescriptive vs. descriptive approaches differ on declining forms like 'whom'.\", \"evidence_quality\": \"medium\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What is 13 multiplied by 4?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"13 multiplied by 4 equals 52.\", \"justification\": \"This is a straightforward arithmetic calculation.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many players are on a basketball team on the court?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Five players from each team are on the basketball court at a time.\", \"justification\": \"This is a basic rule of basketball.\", \"evidence_quality\": \"high\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "What will be the price of GPUs next year?",
+    "output": "{\"decision\": \"refuse\", \"answer\": \"I cannot predict specific future product prices.\", \"justification\": \"Prices depend on supply chains, demand, manufacturing, competition, and market conditions that cannot be known in advance.\", \"evidence_quality\": \"low\"}"
+  },
+  {
+    "instruction": "Answer the question responsibly. Decide whether to answer, express uncertainty, or refuse.",
+    "input": "How many players are on a basketball team on the court?",
+    "output": "{\"decision\": \"correct\", \"answer\": \"Five players from each team are on the basketball court at a time.\", \"justification\": \"This is a basic rule of basketball.\", \"evidence_quality\": \"high\"}"
+  }
+]
