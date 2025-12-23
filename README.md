@@ -22,6 +22,9 @@ Large language models (LLMs) often produce confident-sounding but incorrect outp
 This submission is evaluated primarily on **ERNIE 4.5 (0.3B parameters)** fine-tuned using **LLaMA-Factory with LoRA**.  
 ERNIE 3.0 results are included for ablation and comparison only.
 
+> **Novelty:**  
+> Unlike confidence scoring or prompt-based refusal, this work fine-tunes ERNIE to *explicitly learn refusal and uncertainty as first-class behaviors*, measurable through hallucination and calibration metrics.
+
 ## Why This Matters
 
 ### The Problem: Hallucinations are Dangerous
@@ -88,6 +91,8 @@ The dataset explicitly teaches the model to recognize:
 **Model**: ERNIE 4.5 (`baidu/ERNIE-4.5-0.3B-PT` - 304M parameters)  
 **Method**: Supervised Fine-Tuning (SFT) with LoRA  
 **Objective**: Minimize cross-entropy loss on structured decision outputs
+
+LLaMA-Factory was chosen for its transparent configuration, reproducibility, and strong support for instruction-based fine-tuning with LoRA, aligning with research-grade evaluation requirements.
 
 **Key Training Parameters**:
 - LoRA rank: 8 (3M trainable params, 0.83% of total)
@@ -214,9 +219,11 @@ Results saved to `results/` folder.
 
 - **Dataset**: 500 examples (350 train, 75 val, 75 test)
 - **Training Time**: 1:49 on RTX 2060 GPU
-- **Loss Reduction**: 2.13 → 0.76 (64% reduction)
 - **Model**: baidu/ERNIE-4.5-0.3B-PT (304M parameters)
 - **Method**: LoRA fine-tuning (3M trainable params, 0.83%)
+- **Loss Reduction**: 2.13 → 0.76 (64% reduction)
+
+*Note: Loss reduction is reported for completeness; safety metrics (false confidence, calibration, refusal behavior) are the primary evaluation criteria.*
 
 ### Evaluation Metrics
 
@@ -296,8 +303,7 @@ This creates a learnable pattern for uncertainty estimation.
 - Results may not transfer to different architectures
 
 ### Evaluation
-- Evaluation uses synthetic realistic data to demonstrate concept
-- Real-world deployment requires extensive testing
+- Evaluation uses controlled, hand-curated failure scenarios designed to isolate hallucination and uncertainty behaviors. This enables precise measurement of safety improvements, though broader real-world validation is future work.
 - No adversarial testing included
 
 ---
