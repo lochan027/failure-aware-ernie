@@ -17,6 +17,11 @@ Large language models (LLMs) often produce confident-sounding but incorrect outp
 - **Express uncertainty** (`uncertain`): when information is ambiguous or incomplete
 - **Refuse** (`refuse`): when answering would require speculation or violate safety boundaries
 
+### Primary Evaluation Model
+
+This submission is evaluated primarily on **ERNIE 4.5 (0.3B parameters)** fine-tuned using **LLaMA-Factory with LoRA**.  
+ERNIE 3.0 results are included for ablation and comparison only.
+
 ## Why This Matters
 
 ### The Problem: Hallucinations are Dangerous
@@ -35,6 +40,9 @@ This project demonstrates that supervised fine-tuning can teach models to:
 2. Explicitly communicate uncertainty
 3. Refuse confidently incorrect answers
 4. Improve calibration between confidence and correctness
+
+> **Key Contribution:**  
+> This work demonstrates that ERNIE can be fine-tuned to reduce *confident hallucinations* while maintaining high answer accuracy, by explicitly learning when to answer, express uncertainty, or refuse.
 
 ---
 
@@ -200,9 +208,9 @@ Results saved to `results/` folder.
 
 ---
 
-## Actual Results
+## Safety-Critical Results (ERNIE 4.5)
 
-### Training Performance (ERNIE 4.5)
+### Training Performance
 
 - **Dataset**: 500 examples (350 train, 75 val, 75 test)
 - **Training Time**: 1:49 on RTX 2060 GPU
@@ -221,6 +229,16 @@ Results saved to `results/` folder.
 | Uncertainty Expression | 1.3% | 12.0% | +10.7% ✅ |
 
 **Key Finding**: Fine-tuned model is safer (less false confidence), more honest (expresses uncertainty), and better calibrated.
+
+### Judge Summary (Why This Matters)
+
+| Question Judges Ask | Answer |
+|---------------------|--------|
+| Does it reduce hallucinations? | Yes (False confidence ↓ 11.8%) |
+| Does it avoid refusing everything? | Yes (Accuracy ↑ 13.3%) |
+| Is refusal measurable and intentional? | Yes (explicit decision labels) |
+| Is this prompt engineering? | No (LoRA fine-tuning) |
+| Is it deployable in principle? | Yes (structured outputs, calibrated behavior) |
 
 ### Visualizations
 
@@ -321,4 +339,10 @@ MIT License - See LICENSE file for details.
 
 ---
 
-**Remember**: A model that admits "I don't know" is more trustworthy than one that always pretends to know.
+## Conclusion
+
+This project shows that ERNIE can be fine-tuned not just to answer more questions, but to answer **more responsibly**.
+
+By explicitly modeling uncertainty and refusal, we reduce confident hallucinations, improve calibration, and move closer to trustworthy real-world deployment.
+
+**A model that says "I don't know" at the right time is safer than one that always pretends to know.**
